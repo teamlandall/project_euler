@@ -10,13 +10,14 @@ def largest_prime_factor(x)
   # iterates through the array comparing for the largest number. 
   # Returns largest number which will be the largest prime factor.
   big_prime = 0
+  
   arr.each do |x,y|
     if x > y
       big_prime = x
     end
   end
    
-  big_prime
+  p big_prime
 
  # the largest prime factor = 6857
 
